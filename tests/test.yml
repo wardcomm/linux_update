@@ -1,5 +1,8 @@
 ---
-- hosts: localhost
-  remote_user: root
-  roles:
-    - linux_update
+- hosts: all
+  tasks:
+
+  - name: ansible version print out if standard error
+    command: ansible --version
+    register: command_result
+    failed_when: "'FAILED' in command_result.stderr"

@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  description: This is Galaxy role to help getting a linux box updated
+  description: Role for getting a linux box updated
   role_name: linux_update
   author: J. Chad Ward
   company: jchadward.com

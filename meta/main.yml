@@ -2,7 +2,7 @@
 galaxy_info:
   description: Role for getting a linux box updated
   role_name: linux_update
-  author: J. Chad Ward
+  author: wardcomm
   company: jchadward.com
   license: BSD
   min_ansible_version: 2.7

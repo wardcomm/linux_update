@@ -1,0 +1,8 @@
+---
+- hosts: all
+  vars:
+  remote_user: user
+  become: yes
+  
+  roles:
+  - wardccomm.linux_update
